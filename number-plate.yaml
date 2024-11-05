@@ -1,0 +1,9 @@
+names:
+  - number plate
+
+# Chemins de dossiers des images
+train: /content/drive/MyDrive/projet_yolov8/projet_yolo/datasets/images/train
+val: /content/drive/MyDrive/projet_yolov8/projet_yolo/datasets/images/valid
+
+# nombre de classes
+nc: 1  # Nombre de classes, ici 1 car nous ne détectons que des plaques d'immatriculation
