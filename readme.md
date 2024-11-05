@@ -52,8 +52,8 @@ Suivez ces étapes pour installer le projet :
 4. Installation de Git LFS
 
 - Installer Git LFS : Sur Ubuntu ou Debian, utilise la commande suivante :
-    ``` sudo apt update
-        sudo apt install git-lfs
+    ```sudo apt update
+    sudo apt install git-lfs
     ```
 - Initialiser Git LFS : Une fois installé, initialise Git LFS :
     ```git lfs install
@@ -61,7 +61,7 @@ Suivez ces étapes pour installer le projet :
 
 # Usage
 1.  Pour lancer l'application, suivez les étapes suivantes après l'installation :
-     ```web_app/streamlit run app.py 
+     ```streamlit run app.py
      ```
 2. Configuration : Assurez-vous que les fichiers de configuration, tels que les chemins vers le modèle YOLOv8 et le répertoire d'images d'entrée, sont correctement configurés.
 
